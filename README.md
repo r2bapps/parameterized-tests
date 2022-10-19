@@ -1,2 +1,3 @@
-# parameterized-tests
-How to use https://github.com/Pragmatists/JUnitParams with kotlin
+# Parameterized Tests
+
+How to use [JUnitParams](https://github.com/Pragmatists/JUnitParams) with kotlin
