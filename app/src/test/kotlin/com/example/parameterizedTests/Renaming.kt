@@ -1,7 +1,6 @@
 package com.example.parameterizedTests
 
 import com.example.parameterizedTests.oos.Person
-import com.example.parameterizedTests.oos.Shared
 import junitparams.JUnitParamsRunner
 import junitparams.Parameters
 import junitparams.naming.TestCaseName
