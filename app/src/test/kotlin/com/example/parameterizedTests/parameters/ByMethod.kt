@@ -19,7 +19,6 @@ class ByMethod {
   }
 
   @SuppressWarnings("unused")
-  @NamedParameters("grownups")
   fun adultValues(): Array<Any> {
     return Shared.adultValues()
   }
