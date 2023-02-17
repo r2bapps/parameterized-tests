@@ -12,7 +12,7 @@ import org.junit.runner.RunWith
 class Renaming {
 
   @Test
-  @Parameters(*arrayOf("17, false", "18, true", "22, true"))
+  @Parameters("17, false", "18, true", "22, true")
   @TestCaseName("Is person with age {0} adult? It's {1} statement.")
   fun isAdultWithCustomTestName(age: Int, valid: Boolean) {
     assertEquals(valid, Person(age).isAdult)
