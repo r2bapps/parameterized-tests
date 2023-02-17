@@ -11,13 +11,13 @@ import org.junit.runner.RunWith
 class Inlined {
 
   @Test
-  @Parameters(*arrayOf("17, false", "18, true", "22, true"))
+  @Parameters("17, false", "18, true", "22, true")
   fun isAdultAgeDirectComaSeparated(age: Int, valid: Boolean) {
     assertEquals(valid, Person(age).isAdult)
   }
 
   @Test
-  @Parameters(*arrayOf("17 | false", "18 | true", "22 | true"))
+  @Parameters("17 | false", "18 | true", "22 | true")
   fun isAdultAgeDirectPipeSeparated(age: Int, valid: Boolean) {
     assertEquals(valid, Person(age).isAdult)
   }
